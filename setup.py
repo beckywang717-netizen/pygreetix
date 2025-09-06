@@ -18,4 +18,7 @@ setup(
     ]
     python_requires=">=3.7"
     packages=find_packages() # 自动扫描当前目录（或指定目录）下的所有Python包
+    entry_points = (
+      "console_scripts":[xxxx]
+    )
 )
